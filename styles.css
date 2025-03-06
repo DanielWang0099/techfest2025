@@ -1,0 +1,126 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    width: 350px;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.container {
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    background-color: white;
+}
+
+/* Header */
+header {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #eee;
+}
+
+.logo img {
+    width: 36px;
+    height: 36px;
+}
+
+.logo h1 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #cc0000;
+}
+
+/* Status Section */
+.status-section {
+    padding: 12px;
+    background-color: #e3f2fd;
+    border-radius: 6px;
+    text-align: center;
+    margin-bottom: 12px;
+    font-weight: bold;
+}
+
+.status-message {
+    font-size: 14px;
+    color: #444;
+}
+
+/* Stats Section */
+.stats-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 12px;
+}
+
+.stat-card {
+    flex: 1;
+    padding: 10px;
+    background-color: #f7f7f7;
+    border-radius: 6px;
+    text-align: center;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.stat-card h3 {
+    font-size: 12px;
+    color: #666;
+    margin-bottom: 4px;
+}
+
+.stat-card p {
+    font-size: 18px;
+    font-weight: bold;
+    color: #222;
+}
+
+/* Error Section */
+.error-section {
+    padding: 10px;
+    background-color: #ffebee;
+    color: #d32f2f;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 6px;
+    margin-top: 12px;
+}
+
+.hidden {
+    display: none;
+}
+
+/* Footer */
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 12px;
+    border-top: 1px solid #eee;
+}
+
+#resetStats {
+    padding: 6px 12px;
+    background-color: #e0e0e0;
+    border: none;
+    border-radius: 4px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+#resetStats:hover {
+    background-color: #d6d6d6;
+}
+
+.version {
+    font-size: 11px;
+    color: #888;
+}
